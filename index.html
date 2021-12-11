@@ -16,44 +16,60 @@
 		<div class="select-box">
 			<p class="board-title">Wybierz figurę</p>
 			<div class="options">
-				<button class="playerX Active"><i class="fas fa-times"></i></button>
+				<button class="playerX"><i class="fas fa-times"></i></button>
 				<button class="playerO"><i class="far fa-circle"></i></button>
 			</div>
 		</div>
-
-		<div class="play-board">
-			<div class="details">
-				<p class="Xturn">Kolej gracza <i class="fas fa-times"></i></span>
-				<p class="Oturn">Kolej gracza <i class="far fa-circle"></i></p>
+		<div class ="game-board">
+			<div class="play-board">
+				<div class="details">
+					<div class="players">
+					<p class="Xturn">Kolej gracza <i class="fas fa-times"></i></span>
+					<p class="Oturn">Kolej gracza <i class="far fa-circle"></i></p>
+				</div>
+				</div>
+				<div class="boxes">
+				<section>
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+				</section>
+				<section>
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+				</section>
+				<section>
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+				</section>
 			</div>
-			<section>
-				<div class="box1">1</div>
-				<div class="box2">2</div>
-				<div class="box3">3</div>
-			</section>
-			<section>
-				<div class="box4"></div>
-				<div class="box5"></div>
-				<div class="box6"></div>
-			</section>
-			<section>
-				<div class="box7"></div>
-				<div class="box8"></div>
-				<div class="box9"></div>
-			</section>
-		</div>
+			</div>
 
-		<div class="results-table">
-			<p class="results-title">
-				Tabela Wyników
-			</p>
-			<section class="grid">
-				<p class="player">Gracz</p>
-				<p class="player-results">1</p>
-				<p class="ai">Komputer</p>
-				<p class="ai-results">1</p>
-			</section>
-			
+			<div class="results-table">
+				<p class="results-title">
+					Tabela Wyników
+				</p>
+				<section class="grid">
+					<p class="player">Gracz</p>
+					<p class="player-results">1</p>
+					<p class="ai">Komputer</p>
+					<p class="ai-results">1</p>
+				</section>
+			</div>
+			<div class="win-info">
+				<p>Wygrałeś!</p>
+				<button>Zagraj jeszcze raz</button>
+			</div>
+			<div class="lose-info">
+				<p>Przegrałeś!</p>
+				<button>Zagraj jeszcze raz</button>
+			</div>
+			<div class="draw-info">
+				<p>Remis!</p>
+				<button>Zagraj jeszcze raz</button>
+			</div>
 		</div>
 		
 

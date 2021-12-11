@@ -15,6 +15,13 @@
 	width: 100%;
 	align-items: center;
 }
+.select-box .selected {
+	background-color: #333;
+	color: #fff;
+}
+.select-box .hide {
+	display: none;
+}
 
 .select-box .board-title {
 	font-size: 22px;
@@ -67,6 +74,11 @@
 	font-size: 40px;
 	text-align: center;
 	line-height: 130px;
+}
+
+
+.boxes {
+	cursor: pointer;
 }
 
 .results-table {
