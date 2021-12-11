@@ -20,6 +20,7 @@ clickedOBtn = () => {
 xBtn.addEventListener('click', clickedXBtn);
 oBtn.addEventListener('click', clickedOBtn);
 
+//powinien dodawać się X na planszy,  jeśli się wyżej wybrało X jako swoją figurkę
 boxes.forEach((box) =>
 	box.addEventListener('click', function clickedBox(element) {
 		if (xBtn.classList.contains('selected')) {
