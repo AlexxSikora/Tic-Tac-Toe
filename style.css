@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.select-box {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	max-width: 400px;
+	width: 100%;
+	align-items: center;
+}
+
+.select-box .title {
+	font-size: 22px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: 600;
+	border-bottom: 1px solid #333;
+}
+
+.select-box .options {
+	display: flex;
+
+	width: 100%;
+}
+
+.options button {
+	width: 100%;
+	margin-top: 15px;
+	font-size: 20px;
+	padding: 8px 0;
+	border: none;
+	border-radius: 5px;
+	transition: all 0.2s ease;
+}
+
+.options button:hover {
+	background-color: #333;
+	transform: scale(0.9);
+	color: #fff;
+}
+
+.options button.playerX {
+	margin-right: 5%;
+}
+.options button.playerO {
+	margin-left: 5%;
+}
