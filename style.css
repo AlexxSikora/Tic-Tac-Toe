@@ -21,12 +21,11 @@
 	padding-bottom: 10px;
 	text-align: center;
 	font-weight: 600;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #ccc;
 }
 
 .select-box .options {
 	display: flex;
-
 	width: 100%;
 }
 
@@ -64,10 +63,32 @@
 	height: 130px;
 	width: 130px;
 	margin: 2px;
-	background-color: aqua;
+	background-color: #ccc;
 	font-size: 40px;
 	text-align: center;
 	line-height: 130px;
 }
 
+.results-table {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	top: 40%;
+	left: 90%;
+	width: 15%;
+	transform: translate(-50%, -50%);
+	border: 2px solid black;
+	font-weight: 600;
+	font-size: 22px;
+	padding: 10px;
+}
 
+.results-title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.grid {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 3fr 1fr;
+}
